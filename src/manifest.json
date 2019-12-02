@@ -1,0 +1,22 @@
+{
+  "name": "Incognito Toggle",
+  "version": "0.1.0",
+  "description": "Switches between incognito and regular browsing",
+  "permissions": ["tabs"],
+  "background" : {
+    "scripts" : ["background.bundle.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "32": "images/incognito-toggle-icon-32.png",
+      "64": "images/incognito-toggle-icon-64.png",
+      "128": "images/incognito-toggle-icon-128.png"
+    }
+  },
+  "icons": {
+    "32": "images/incognito-toggle-icon-32.png",
+    "64": "images/incognito-toggle-icon-64.png",
+    "128": "images/incognito-toggle-icon-128.png"
+  },
+  "manifest_version": 2
+}
